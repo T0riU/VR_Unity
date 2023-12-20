@@ -14,12 +14,12 @@ public class SelectTurnType : MonoBehaviour
 
     public void SetTypeIndex(int index)
     {
-        if (index == 0)
+        if (index == 1)
         {
             snapTurn.enabled = false;
             continuousTurn.enabled = true;
             sl.interactable = false;
-        } else if (index == 1)
+        } else if (index == 0)
         {
             snapTurn.enabled = true;
             continuousTurn.enabled = false;
